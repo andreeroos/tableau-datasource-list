@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datasource List</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tableau Extensions API - Download from https://github.com/tableau/extensions-api -->
+    <script src="./lib/tableau.extensions.1.latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard Datasources</h1>
+        <div id="loading" class="loading">Loading datasources...</div>
+        <div id="error" class="error" style="display: none;"></div>
+        <ul id="datasource-list" class="datasource-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

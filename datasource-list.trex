@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.example.datasourcelist" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Lists all datasources used in the dashboard</description>
+    <author name="Developer" email="developer@example.com" organization="Example Org" website="https://example.com"/>
+    <min-api-version>1.0</min-api-version>
+    <source-location>
+      <url>http://localhost:8000/index.html</url>
+    </source-location>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAlhJREFUOI2Nkj1oU2EUhp9z7k1MYoIWjSmkIA4VnFQc64+Dg5OODhURB8VZcXRwEXRwcHMQnMRRHRQkuhgQRBRR/KnGqm1jTNOk9+d+xwSMCy18cDjw8j7n43AARAAFgL3diYmZUqk0LiijgA3cS5Lk4tzcXPrWJMBBggAEBAXGygcTj28U4Hc/Nz1NfHBsCVjfBASL3g8VAsJI4NQz3+8U9H2hMIkxViGwbpzuXiERQUR6A0n/wD8k/0D4B8ClKChnk3E/gEC8E3RE4dWU7OgyF8LxDNAzef3AXwJJAAtZlqWu676NYTl3gXbJK6lVd0nMAQS6KxQTQZ+v+a0tuOPxu4MZwrAq/3RFb3SekuYGiDFZbXQ26E1NAU/+KZAFVLZ2RqdaReJ6SFTPUX7X0+Dql0HJfcjurEv3T6A4EaJOJu5PyuKEg2KMywQMdYuIgiWE0FJk6Evy4DPpq5/p+6e2Nzh6LsZYB6HoDQRkBAw6RCWK3OqxvjTD0I0vZOEyEZjH8GCqxz9RKJeYffIIawvQ3vPlq1EdHSLJsjUqcU8t5nWBT+eTjS0V+wkrKDy2GQJxkgAJJpQQgsVVZqzrfvTuYpOWbyaXfqD3Y/TewNLCSv/bKOkT7DGMqDE1PD/rGKdMKNfXL7EcfxX5qc2BvkA7LyR3GQqWCqhFGtYY3JBQ3aMJ5GeSA6cAtEOXxAgmZ9G8wRpHKGJwRPLMWIfzzYXI1k2Oby4RqDPeJNqLAx5qFRKCptcV9YoijVIKcIb8Y6E+pSPtbgBJm+GqLo/1TQAAAABJRU5ErkJggg==</icon>
+    <permissions>
+      <permission>full data</permission>
+    </permissions>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Datasource List</text>
+    </resource>
+  </resources>
+</manifest>
