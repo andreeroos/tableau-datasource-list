@@ -2,6 +2,9 @@
 
 A simple Tableau dashboard extension that lists all datasources used in the current dashboard.
 
+<img width="258" height="197" alt="image" src="https://github.com/user-attachments/assets/37190ea1-118a-4049-a84a-06e2dfc5ed2f" />
+
+
 ## Files
 
 - `datasource-list.trex` - Extension manifest file
